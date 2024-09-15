@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Lab/Lab1/Shah_Syed/lab1.test.mjs"
   },
   "private": true
 }

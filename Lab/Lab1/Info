@@ -1,0 +1,54 @@
+Functions to implement
+questionOne(arr)
+For your first function, you will return an array that calculates sum of prime numbers in the array as one element, the sum of composite numbers in the array as another element, and the 3rd element will be a boolean that will be true if the sum of the sum of prime and sum of composite numbers are even and return false if they are odd. The return array MUST be in the order [sumOfPrimes, sumOfComposites, boolean] Note: For the purpose of this exercise, we will consider 1 a composite since it is not prime.
+
+See the following examples:
+
+lab1.questionOne([17, 13, 1, 1, 2, 5]) //sum of both sum of prime + sum of composite = 39 function returns [37, 2, false]
+
+lab1.questionOne([5, 4, 6]) // returns [5, 10, false]
+
+lab1.questionOne([5, 3, 6, 61, 97]) // returns [166, 6, true]
+questionTwo(index, multiplier);
+This function will first calculate the FibonacciLinks to an external site. that corresponds to the index given, and then multiply it by the multiplier. Your function will return an object that has the calculated fibonacci as the key and the calculated fibonacci * the multiplier as the value.
+
+The Fibonacci value of a number is the sum of the previous two Fibonacci values; the Fibonacci of any number less than 1 is 0; the Fibonacci Value of 1 is 1; the Fibonacci value of all other numbers is the sum of the previous two Fibonacci numbers.
+
+Index	Value	Description
+0	0	Fibonacci of anything less than 1 is 0
+1	1	Fibonacci of 1 is 1
+2	1	Fibonacci of 2 is Fibonacci(1) + Fibonacci(0)
+3	2	Fibonacci of 3 is Fibonacci(2) + Fibonacci(1)
+4	3	Fibonacci of 4 is Fibonacci(3) + Fibonacci(2)
+5	5	Fibonacci of 5 is Fibonacci(4) + Fibonacci(3)
+6	8	Fibonacci of 6 is Fibonacci(5) + Fibonacci(4)
+7	13	Fibonacci of 7 is Fibonacci(6) + Fibonacci(5)
+8	21	Fibonacci of 8 is Fibonacci(7) + Fibonacci(6)
+9	34	Fibonacci of 9 is Fibonacci(8) + Fibonacci(7)
+10	55	Fibonacci of 10 is Fibonacci(9) + Fibonacci(8)
+11	89	Fibonacci of 11 is Fibonacci(10) + Fibonacci(9)
+And so on.
+
+See the following examples:
+
+lab1.questionTwo(3, 5) //returns {2: 10}
+
+lab1.questionTwo(11, 4) // returns {89: 356}
+
+lab1.questionTwo(0, 5) // returns {0: 0}
+questionThree(str)
+This function will return the number of words contained in the value str. For the purposes of this exercise, a word is defined as any substring of characters, separated by a space, you should delete any characters in the string that are not letters or spaces before you calculate your value.
+
+For example, running
+
+lab1.questionThree(“Hello, my name is Professor Hill”) //would return 6.
+lab1.questionThree(“I !!,123am hap2py to be. here t0oday”) //after stripping out non-letters, you have "I am happy to be here today" and would return 7 .
+lab1.questionThree(“The quick,,, brown fox jumps over the lazy dog!”) //would return 9.
+questionFour(arr)
+For your 4th function, you will calculate the mean of the cubes for each number in the array and return that result. You should round to the nearest whole number.
+
+For example, running:
+
+lab1.questionFour([2,3,5]);  //returns 53
+lab1.questionFour([14,5,7]);  //returns 1071
+lab1.questionFour([1,6,2,4,9]);  //returns 204
