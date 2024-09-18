@@ -1,6 +1,12 @@
 const checkIsProperNumber = (val, variableName)=>{
-    if(typeof val != 'number') throw `${variableName || "provided variable"} is not a number`;
-};
+    if(typeof val != 'number') {
+        throw `${variableName || "provided variable"} is not a number`;
+    }
+
+    if(isNaN(val)) {
+        throw `NaN`;
+    }
+    };
 
 
 export const addTwoNumbers = (num1, num2) =>{
