@@ -1,4 +1,12 @@
 import {addTwoNumbers, divideTwoNumbers, multiplyTwoNumbers, subtractTwoNumbers} from "./calculator.js";
+import {getData} from "./axiostest.js";
+
+
+/*
+let data = await getData();
+console.log(data);
+*/
+
 
 try {
     console.log(addTwoNumbers(5, 4));
