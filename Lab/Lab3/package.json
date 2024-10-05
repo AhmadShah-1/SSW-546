@@ -1,0 +1,17 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Temp/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Temp/app.js"
+  },
+  "author": "Syed Ahmad Shah",
+  "license": "MIT",
+  "dependencies": {
+    "age-calculator": "^1.0.0",
+    "axios": "^1.7.7"
+  }
+}
