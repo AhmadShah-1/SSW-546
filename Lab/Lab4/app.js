@@ -44,7 +44,7 @@ async function main(){
         { firstName: "Kyle", lastName: "Higashioka", position: "C" }
     ]);
     // 2
-    console.log("2. Single Team")
+    console.log("2. Single Team ")
     console.log(team1);
 
     // 3
