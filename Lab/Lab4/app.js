@@ -9,7 +9,7 @@ Log the newly created 3rd team. (Just that team, not all team)
 Move the first team
 Log the first team with the updated info. 
 Remove the second team you created.
-Query all teams, and log them all
+Query2 all teams, and log them all
 Try to create a team with bad input parameters to make sure it throws errors.
 Try to remove a team that does not exist to make sure it throws errors.
 Try to rename a team that does not exist to make sure it throws errors.
