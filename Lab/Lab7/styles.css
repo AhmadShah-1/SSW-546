@@ -1,0 +1,48 @@
+
+header{
+    background-color: #B5CBB7;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    margin: 10px 0;
+}
+
+header nav ul li a {
+    color: #2D3142;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 10px;
+}
+
+h1{
+    color: #9D79BC;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    border: 2px solid #9D79BC;
+    padding: 10px;
+    background-color: #F0E6F6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#TravelTips {
+    border: 4px double #9D79BC;
+    padding: 20px;
+    background-color: #F0E6F6;
+    border-radius: 10px;
+}
+
+

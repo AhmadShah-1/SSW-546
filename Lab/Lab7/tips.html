@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Travel Tips</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
@@ -18,7 +20,7 @@
 
 
     <h1>Travel Tips</h1>
-    <main>
+    <main id="TravelTips">
       <ol>
         <li>
           <h3>Navigation</h3>
@@ -27,7 +29,9 @@
 
         <li>
           <h3>Carry a water bottle</h3>
-          <p>You may be required to walk long distances, and the temperature of the region is also a factor, MAKE SURE TO BRING WATER EVERYWHERE</p>
+          <p>You may be required to walk long distances, and the temperature of the region is also a factor, <a href="https://media1.tenor.com/m/O-KZrhvhd9AAAAAd/pluh-veilbound.gif" id="showGif">MAKE SURE TO BRING WATER EVERYWHERE</a></p>
+          <div id="gifContainer" style="display:none;"><img id="gif" src="https://media1.tenor.com/m/O-KZrhvhd9AAAAAd/pluh-veilbound.gif" alt="Water Reminder GIF"></div>
+
         </li>
 
         <li>
@@ -41,6 +45,14 @@
         </li>
       </ol>
     </main>
+
+
+<script>
+  document.getElementById('showGif').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('gifContainer').style.display = 'block';
+  });
+</script>
 
 </body>
 </html>
