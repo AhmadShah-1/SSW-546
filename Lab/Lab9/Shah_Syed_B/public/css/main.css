@@ -1,3 +1,47 @@
 /*
 You will style your page using at least 10 CSS selectors for general CSS styling. You will place the CSS in its own file. 
 */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    background-color: lightblue;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+
+ol {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.is-prime {
+    color: #00ff00;
+}
+
+.not-prime {
+    color: #ff0000;
+}
+
+.error {
+    color: red;
+}
+

@@ -5,3 +5,13 @@ Your server this week should not do any of the processing or calculations.  Your
 
 you just need one route to send the static homepage.html file
 */
+
+import express from 'express';
+import path from 'path';
+const router = express.Router();
+
+router.get('/', (req, res) => {
+    res.sendFile(path.resolve('static/homepage.html'));
+});
+
+export default router;
